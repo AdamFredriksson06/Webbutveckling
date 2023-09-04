@@ -8,7 +8,7 @@ h1{
     font-size: 22px;
 }
 p{
-    color: cornsilk;
+    color: rgb(131, 47, 64)
 }
 
 .tankarP{
@@ -19,7 +19,15 @@ p{
     background-color: black;
     color: aliceblue;
     text-align: center;
+    border: 1px solid
+
 }
 
  
+.migP{
+    border:2px solid black 
+}
 
+a{
+    text-decoration: none;
+}
