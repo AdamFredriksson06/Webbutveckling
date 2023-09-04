@@ -1,33 +1,53 @@
 body{
-    background-color: rgb(5, 112, 252);
+    background-color: rgb(138, 174, 221);
+    display: grid;
+    grid-template-rows: 80px 80px auto 50px;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer" ;
 }
-
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+    border: 1px solid white;
+}
+footer{
+    grid-area: footer;
+}
 h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
 }
-p{
-    color: rgb(131, 47, 64)
+h2{
+    margin-left: 10px;
 }
-
+p{
+    color: white;
+    margin: 20px;
+}
+a{
+    text-decoration: none ;
+}
 .tankarP{
     text-align: right;
-
 }
 .programP{
-    background-color: black;
+    background-color: blue;
     color: aliceblue;
     text-align: center;
-    border: 1px solid
-
+    border: 1px solid white;
 }
-
- 
 .migP{
-    border:2px solid black 
+   
 }
 
-a{
-    text-decoration: none;
-}
+
+
