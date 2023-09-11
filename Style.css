@@ -6,20 +6,39 @@ body{
     "header"
     "nav"
     "main"
-    "footer" ;
+    "footer" ; 
 }
 header{
     grid-area: header;
 }
 nav{
     grid-area: nav;
+    
+}
+nav>ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+   
+}
+nav li{
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid;
+    margin: 1%;
+    
 }
 main{
     grid-area: main;
-    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
+    
 }
 footer{
     grid-area: footer;
+    
 }
 h1{
     text-align: center;
@@ -28,26 +47,32 @@ h1{
 }
 h2{
     margin-left: 10px;
+    text-align: center;
 }
 p{
     color: white;
     margin: 20px;
+    text-align: center;
+    
 }
 a{
     text-decoration: none ;
+    color: black;
+
 }
-.tankarP{
-    text-align: right;
+
+
+img{
+    max-width: 100%;
+    height: auto;
 }
-.programP{
-    background-color: blue;
-    color: aliceblue;
-    text-align: center;
-    border: 1px solid white;
+section{
+    background-color: rgb(123, 120, 168);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
 }
-.migP{
-   
-}
+
 
 
 
