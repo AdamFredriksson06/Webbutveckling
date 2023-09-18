@@ -1,0 +1,42 @@
+
+table,th,td{
+    width: 800;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightgray;
+}
+
+th:first-of-type{
+    text-align: left;
+}
+
+th:last-of-type{
+    text-align: right;
+}
+
+tr:nth-child(odd){
+    background-color: red;
+}
+
+tr:nth-child(even){
+    background-color: yellow;
+}
+
+td:last-of-type{
+    text-align: right;
+}
+
+td:first-of-type{
+    text-align: left;
+}
+
+td,th{
+    padding: 7px;
+    text-align: center;
+}
+
+
+
