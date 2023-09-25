@@ -1,8 +1,9 @@
 
 table,th,td{
-    width: 800;
+    width: 800px;
     border: 1px solid black;
     border-collapse: collapse;
+    margin: auto;
 }
 
 th{
@@ -34,9 +35,45 @@ td:first-of-type{
 }
 
 td,th{
-    padding: 7px;
+    padding: 10px;
     text-align: center;
 }
+
+table:last-of-type{
+    width: 400px;
+   height: 300px;
+}
+
+.blå{
+    background-color: blue;
+}
+
+.grön{
+    background-color: rgb(115, 255, 0);
+}
+
+.svart{
+    background-color: black;
+}
+
+.gul{
+    background-color: yellow;
+    ;
+}
+
+.röd{
+    background-color: red;
+    border
+}
+
+caption{
+    font-size: 130%;
+    caption-side: bottom;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
 
 
 
