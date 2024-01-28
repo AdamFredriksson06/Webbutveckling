@@ -1,29 +1,29 @@
 body{
-    background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: 
-    "header"
-    "nav"
-    "main"
-    "footer" ; 
+    height: 100vh;
+    width:100vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0px;
 }
 
-
-.blå{
-    background-color: blue;
-}
-
-.grön{
-    background-color: green;
-}
-
-.röd{
+header{
     background-color: red;
 }
 
-.gul{
-    background-color: yellowgreen;
+nav{
+    background-color: blue;
 }
 
+main{
+    background-color:green;
+}
+
+footer{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+    font-size: 5vw;
+}
