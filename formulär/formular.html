@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "sv">
+    <head>
+        <title>Formular</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="formular.css">
+    </head>
+    <body>
+    <header>
+        <h1>Digital Psykolog</h1>
+    </header>
+    <nav>
+    </nav>
+    <main>
+        <form action="/formulär/tacksida.html">
+                <label for="fnamn">Förnamn:</label><br>
+                <input type="text" id="fnamn" name="fnamn"><br>
+                <label for="enamn"> Efternamn:</label><br>
+                <input type="text" name="enamn" id="enamn">
+        
+        <h2>Hur mår du?</h2>
+        
+            <input type="radio" name="feeling" id="dåligt" value="DÅLIGT">
+            <label for="dåligt">Dåligt</label><br>
+            <input type="radio" name="feeling" id="sådär" value="SÅDÄR">
+            <label for="sådär">Sådär</label><br>
+            <input type="radio" name="feeling" id="bra" value="BRA">
+            <label for="bra">Bra</label>
+        
+        <h3>Symptom</h3>
+        
+            <input type="checkbox" id="Symptom" name="Symptom" value="Depression">
+            <label for="Symptom"> Upplever Depression</label><br>
+            <input type="checkbox" name="Symptom2" id="Symptom2" value="Ångest">
+            <label for="Symptom2"> Upplever Ångest</label><br>
+            <input type="checkbox" name="Symptom3" id="Symptom3" value="PanikÅngest">
+            <label for="Symptom3">Upplever Panik Ångest</label><br>
+            
+            <fieldset>
+            <label for="tid">Boka tid</label>
+            <select name="tid" id="tid">
+                <option value="5/2">5/2</option>
+                <option value="7/2">7/2</option>
+                <option value="9/2">9/2</option>
+                <option value="14/2">12/2</option>
+            </select>
+            </fieldset>
+            <input type="submit" value="Skicka">
+
+        </form>
+    </main>
+    <footer>
+        <p>kontakta oss här: @Psykolog</p>
+    </footer>
+    </body>
+</html>
