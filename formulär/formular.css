@@ -22,7 +22,7 @@ h2,h3{
 }
 
 .tack{
-    text-align: center;
+    grid-column: 2;
     margin: auto;
 }
 
